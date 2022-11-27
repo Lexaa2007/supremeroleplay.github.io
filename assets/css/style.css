@@ -1,0 +1,290 @@
+* {
+    color: #D8D8D8;
+    font-weight: bold;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100000000;
+    background-color: #19242D;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+.spinner {
+    display: block;
+    margin-top: 20% !important;
+}
+
+body {
+    background-color: black !important;
+    margin: 0;
+    line-height: 28px;
+    color: #888;
+    font-size: 16px;
+}
+
+.links {
+    color: #fff;
+    cursor: pointer;
+}
+
+.links:hover {
+    color: #007CFF;
+}
+
+header {
+    background: black;
+    height: 70px;
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    transition: top 0.5s ease-in-out;
+    width: 100%;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+}
+
+header ul {
+    margin: 24px 0 0 0;
+    float: right;
+    list-style: none;
+}
+
+header ul li {
+    float: left;
+    margin: 0 0 0 20px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    color: #007CFF;
+}
+
+h1 {
+    font-weight: 300;
+    margin: 0 0 40px 0;
+}
+
+.headerCont {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hide-nav {
+    top: -70px;
+}
+
+main {
+    max-width: 800px;
+    margin: 150px auto;
+}
+
+.logo {
+    max-height: 70px;
+    float: left;
+}
+
+.mainBackground {
+    background-image: url("../images/Background.png");
+    width: 100%;
+    min-height: 780px;
+    background-size: cover;
+}
+
+.contentRow {
+    margin-top: 15% !important;
+}
+
+.welcomeM {
+    margin-top: 15%;
+    color: #fff;
+}
+
+.potpis {
+    font-family: "Marck Script";
+    color: #fff;
+}
+
+.naslov {
+    width: 350px;
+    margin-top: 5%;
+}
+
+.naslov h2 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.line {
+    min-height: 5px;
+    width: 100%;
+    background: linear-gradient(90deg, #007CFF, #1ac2e3 100%);
+    margin-top: 10px;
+}
+
+.ashiImage {
+    width: 40%;
+}
+
+.longBanners {
+    margin-top: 2% !important;
+    width: 100%;
+    height: 340px;
+    background-image: url("../images/city.png");
+}
+
+.textCenter {
+    color: #d8d8d8;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.textCenter:first-child {
+    margin-top: 7%;
+}
+
+.noback {
+    background-image: none;
+    height: 100px !important;
+}
+
+.nobackText {
+    margin-top: 0% !important;
+}
+
+.maliNaslov {
+    font-weight: bold;
+    text-align: center;
+    color: #D8D8D8;
+}
+
+.slicka {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 40%;
+}
+
+.lakeTxt {
+    margin-top: 30%;
+}
+
+.lakeDiv {
+    margin-top: 5% !important;
+}
+
+.sud {
+    background-image: url("../images/sud.png");
+}
+
+.bolnica {
+    background-image: url("../images/bolnica.png");
+}
+
+.nameOrganization {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 125px;
+    margin-top: 5% !important;
+}
+
+.oranizationBanners {
+    margin-top: 2%;
+}
+
+.pd {
+    background-image: url("../images/pd.png");
+}
+
+.naslovPozicije {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tekstPozicije {
+    text-align: center;
+}
+
+.drzacPozicija {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2% !important;
+    flex-wrap: wrap;
+}
+
+.mafija {
+    background-image: url("../images/mafia.png");
+    height: 600px;
+}
+
+.linija {
+    width: 100%;
+    height: 5px;
+    background-color: #D8D8D8;
+}
+
+.mafiadesc {
+    margin-top: 30px !important;
+}
+
+.firme {
+    background-image: url("../images/firma.png");
+    height: 850px;
+}
+
+.footer {
+    background-image: url("../images/footer.png");
+    min-height: 100px;
+}
+
+.miniLogo {
+    float: right;
+}
+
+.copyright {
+    float: left;
+    margin-top: 40px;
+}
+
+.pozicijeNaziv {
+    width: 200px;
+}
+
+.dropdown {
+    margin-top: 10%;
+    float: right;
+}
+
+.smallHeader {
+    display: none;
+}
+
+.linksSmall {
+    font-family: "Poppins", sans-serif;
+}
+
+.linksSmall a {
+    color: #19242D;
+}
+
+.linksSmall a:hover {
+    color: #007CFF;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,165 @@
+@media only screen and (max-width: 1200px) {
+    .welcomeM {
+        font-size: 30px;
+    }
+    .mainBackground {
+        min-height: 500px;
+    }
+    .naslovPozicije {
+        font-size: 15px;
+    }
+    .firme {
+        height: 600px;
+    }
+    .nameOrganization {
+        font-size: 80px;
+    }
+    .mafija {
+        height: 500px;
+    }
+    .spinner {
+        margin-top: 40% !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .naslovPozicije {
+        font-size: 14px;
+    }
+    .pozicijeNaziv {
+        margin-top: 20px;
+    }
+    .mafija {
+        height: 500px;
+    }
+    .sud {
+        height: 250px !important;
+    }
+    .bolnica {
+        height: 250px !important;
+    }
+    .textCenter {
+        font-size: 15px;
+    }
+    .lakeTxt {
+        margin-top: 5%;
+        text-align: center;
+    }
+    .welcomeM {
+        text-align: center;
+    }
+    .potpis {
+        text-align: center;
+    }
+    .lakeDiv {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pd {
+        height: 360px;
+    }
+    .nameOrganization {
+        font-size: 50px;
+    }
+    .firme {
+        height: 700px;
+    }
+    .pozicijeNaziv {
+        width: 150px;
+    }
+    header {
+        display: none;
+    }
+    .textCenter {
+        font-size: 13px;
+    }
+    .sud {
+        height: 170px !important;
+    }
+    .bolnica {
+        height: 170px !important;
+    }
+    .smallHeader {
+        display: block;
+    }
+    .spinner {
+        margin-top: 50% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .welcomeM {
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .slicka {
+        margin-top: 20%;
+    }
+    .spinner {
+        margin-top: 70% !important;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .pozicijeNaziv {
+        width: 100px;
+    }
+    .mafija {
+        height: 500px;
+    }
+    .textCenter {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 459px) {
+    .pozicijeNaziv {
+        width: 100px;
+    }
+    .firme {
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .pozicijeNaziv {
+        width: 100px;
+    }
+    .firme {
+        height: 750px;
+    }
+    .mafija {
+        height: 450px;
+    }
+    .slicka:first-child {
+        margin-top: 35%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .mafiadesc {
+        font-size: 14px;
+    }
+    .longBanners {
+        height: 360px;
+    }
+    .firme {
+        height: 700px;
+    }
+    .mafija {
+        height: 450px;
+    }
+    .naslovPozicije {
+        font-size: 12px;
+    }
+    .tekstPozicije {
+        font-size: 12px;
+    }
+    .spinner {
+        margin-top: 80% !important;
+    }
+}
